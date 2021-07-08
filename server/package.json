@@ -1,0 +1,20 @@
+{
+  "name": "poker-game-with-friends",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "avi gamliel",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "socket.io": "^4.1.2"
+  },
+  "scripts": {
+    "start": "PROD=true node index.js",
+    "postinstall": "cd ./client && yarn",
+    "dev": "nodemon index.js"
+  }
+}
